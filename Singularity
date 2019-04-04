@@ -3,6 +3,7 @@ From: lofaruser/imaging-pipeline:latest
 
 %post -c /bin/bash
 pip install shapely
+pip install pyregion
 source /lofarsoft/lofarinit.sh
 cd /lofarsoft/
 rm -rf prefactor-2.0.3/
